@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preload" href="http://localhost.com:5000" as="script">
+    <title>主页</title>
+    <style>
+        .navbar {
+            display: none;
+        }
+
+        #navtop {
+            background-color: #4A154B;
+        }</style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" style="background-: #4A154B;">
+    <div class="container">
+        <div class="navbar-header logo"><h1 onclick="window.open('//www.runoob.com')">RUNOOB.COM</h1>
+        </div>
+    </div>
+</nav>
+<nav id="navtop">
+    <div class="container">
+        <div class="navbar-header logo"><h1 onclick="window.open('//www.runoob.com')">RUNOOB.COM</h1>
+        </div>
+    </div>
+</nav>
+<h1><a href="404.html" target="pp">在另一个内联框架内显示404页面</a> </h1>
+<iframe name="pp"></iframe>
+</body>
+</html>
